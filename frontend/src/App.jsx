@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import BudgetPanel from "./BudgetPanel";
 
-const API_URL = "http://localhost:5001/api/expenses";
+const API_URL = "https://student-expense-tracker-api-cvz8.onrender.com/api/expenses";
 
 function App() {
   const [expenses, setExpenses] = useState([]);

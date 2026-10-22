@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 
-const API_URL = "http://localhost:5001/api/budget";
+const API_URL = "https://student-expense-tracker-api-cvz8.onrender.com/api/budget";
 
 function dateKey(value) {
   const date = new Date(value);
