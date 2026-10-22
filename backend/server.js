@@ -9,7 +9,7 @@ const Expense = require("./models/Expense");
 const Budget = require("./models/Budget");
 
 const app = express();
-const PORT = 5001;
+const PORT = process.env.PORT || 5001;
 
 // Middleware
 app.use(cors());
